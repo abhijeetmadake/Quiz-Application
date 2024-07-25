@@ -1,0 +1,38 @@
+Quries:-
+ 
+New Table:-create table student(roll int, Student_name varchar, Marks int);
+
+Insert Row:-insert into Student values('"+roll+"','"+name+"','"+marks+"');
+
+Delete Row:-delete from Employee where id=2;
+
+Delete Table:-DROP TABLE table name(Employee);
+
+Table Show:-Select *from Employee;
+
+Show table in conncole:-ResultSet rs=st.executeQuery("select *from Employee;");
+
+
+
+
+
+
+
+Quiz Application Quires:-
+Postgres pass:-ABHI
+
+DataBase Creation:- CREATE DATABASE quiz_application;
+Access Database:-\c quiz_application
+
+Register Table Creation:- CREATE TABLE Register(emailid varchar(30) primary key,name varchar(30),password varchar(30));
+
+Register Table Show:-select *from Register;
+
+Result Table Creation:- CREATE TABLE Result(user_name varchar(30) primary key,emailid varchar(30),test_name varchar(30),test_mark int);
+
+Result Table Show:-select *from Result;
+
+Delete Record From Register Table:-  DELETE FROM Register WHERE name='Abhijeet';
+
+
+Delete Record From Result Table:- DELETE FROM Result WHERE user_name='Abhijeet';
