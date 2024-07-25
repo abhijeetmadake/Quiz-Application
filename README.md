@@ -1,1 +1,2 @@
-# Quiz-Application
+Quiz Application: -
+Developed a quiz application that offers various types of quizzes (technical, games, sports, etc.). Users can access and attempt any quiz. The application provides a limited number of questions, and for each correct answer, users earn a credit score. Additionally, users can view answers and ask queries related to the quizzes. The goal was to create a user-friendly application that enhances knowledge and encourages learning.
